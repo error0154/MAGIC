@@ -16,11 +16,11 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '7890658411:AAE6Vzp-GDWqiSz_7Sfrg5-6bCDaxtWg9Q'
+TOKEN = '7564786457:AAH6m4EGWkOcyqgI_YHSsk4CEqNo7JoPBfo'
 MONGO_URI = 'mongodb+srv://Bishal:Bishal@bishal.dffybpx.mongodb.net/?retryWrites=true&w=majority&appName=Bishal'
-FORWARD_CHANNEL_ID = -1002224465890          #telegram mai group bana ke chat id dalo      
-CHANNEL_ID = -1002224465890                      #telegram mai group bana ke chat id dalo      
-error_channel_id = -1002224465890                   #telegram mai group bana ke chat id dalo      
+FORWARD_CHANNEL_ID = -4679679363          #telegram mai group bana ke chat id dalo      
+CHANNEL_ID = -4679679363                      #telegram mai group bana ke chat id dalo      
+error_channel_id = -4679679363                   #telegram mai group bana ke chat id dalo      
 
 logging.basicCGOLEM_OWNERonfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
@@ -334,7 +334,7 @@ def owner_command(message):
 @bot.message_handler(commands=['start'])
 def start_message(message):
     try:
-        bot.send_message(message.chat.id, "*🌍 WELCOME TO GOLEM DDOS WORLD!* 🎉\n\n"
+        bot.send_message(message.chat.id, "*🌍 WELCOME TO ERROR DDOS WORLD!* 🎉\n\n"
                                            "*BEST AND STABLE SERVERS *\n\n"
                                            "*💣 To use type * `/attack` *command followed by your target's IP and port.* ⚔️\n\n"
                                            "*🔍 Example: After* `/attack`, *enter:* `ip port duration`.\n\n"
