@@ -18,11 +18,11 @@ loop = asyncio.get_event_loop()
 
 TOKEN = '7564786457:AAH6m4EGWkOcyqgI_YHSsk4CEqNo7JoPBfo'
 MONGO_URI = 'mongodb+srv://Bishal:Bishal@bishal.dffybpx.mongodb.net/?retryWrites=true&w=majority&appName=Bishal'
-FORWARD_CHANNEL_ID = -4679679363          #telegram mai group bana ke chat id dalo      
-CHANNEL_ID = -4679679363                      #telegram mai group bana ke chat id dalo      
-error_channel_id = -4679679363                   #telegram mai group bana ke chat id dalo      
+FORWARD_CHANNEL_ID = -1004679679363          #telegram mai group bana ke chat id dalo      
+CHANNEL_ID = -1004679679363                      #telegram mai group bana ke chat id dalo      
+error_channel_id = -1004679679363                   #telegram mai group bana ke chat id dalo      
 
-logging.basicCGOLEM_OWNERonfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 db = client['zoya']
